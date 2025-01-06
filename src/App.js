@@ -16,7 +16,7 @@ function App() {
     return (
         <ThemeProvider theme={netflixTheme}>
             <CssBaseline />
-            <Router basename="/coderflix">
+            <Router basename="/">
                 <ScrollToTop />
                 <Routes>
                     {/* Route pour la page principale */}
